@@ -26,8 +26,8 @@
         <ul class="nav-menu">
             <li><a href="/" class="btn btn--outline btn--medium">Domov</a></li>
             <li><a href="/produkty" class="btn btn--outline btn--medium">Produkty</a></li>
-            <li><a href="#onas" class="btn btn--outline btn--medium">O nás</a></li>
-            <li><a href="#kontakt" class="btn btn--outline btn--medium">Kontakt</a></li>
+            <li><a href="/#onas" class="btn btn--outline btn--medium">O nás</a></li>
+            <li><a href="/#kontakt" class="btn btn--outline btn--medium">Kontakt</a></li>
         </ul>
     </nav>
 </header>
