@@ -49,17 +49,17 @@ $mail = new PHPMailer(true);
 try {
     // SMTP Configuration
     $mail->isSMTP();
-    $mail->Host = 'smtp.m1.websupport.sk';
+    $mail->Host = 'mail.webglobe.sk';
     $mail->SMTPAuth = true;
-    $mail->Username = 'app@synapps.sk';
-    $mail->Password = 'R(n~6Fm60d';
+    $mail->Username = 'kima@kima.sk';
+    $mail->Password = '***REMOVED***';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // TLS for port 587
     $mail->Port = 587;
     $mail->CharSet = 'UTF-8';
 
     // Recipients
-    $mail->setFrom('app@synapps.sk', 'Synapps App');
-    $mail->addAddress('michal.cecko@gmail.com', 'Michal Cecko');
+    $mail->setFrom('kima@kima.sk', 'Kima');
+    $mail->addAddress('kima@kima.sk', 'Kima');
     $mail->addReplyTo($email, $name);
 
     // Content

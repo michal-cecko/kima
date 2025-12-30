@@ -5,6 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
     <title>Kima</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.kima.sk/">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="KIMA - Rodinná firma vyrábajúca tradičné slovenské sladkosti od roku 1989. Turecký med, košický med, kokosový kmeň, grilážky a ovocné želé.">
+    <meta name="author" content="Janka Kočvarová KIMA">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Slovak">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="KIMA - Sladká chuť tradície od roku 1989">
+    <meta property="og:description" content="Ručne vyrábané tradičné slovenské sladkosti - turecký med, košický med, kokosový kmeň a grilážky. Rodinná firma s takmer storočnými receptúrami.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.kima.sk">
+    <meta property="og:locale" content="sk_SK">
+    <meta property="og:site_name" content="KIMA">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="KIMA - Sladká chuť tradície od roku 1989">
+    <meta name="twitter:description" content="Ručne vyrábané tradičné slovenské sladkosti - turecký med, košický med, kokosový kmeň a grilážky.">
+
+    <!-- Additional Meta Tags -->
+    <meta name="geo.region" content="SK-ZI">
+    <meta name="geo.placename" content="Žilina">
+    <meta name="geo.position" content="49.2236;18.7394">
+    <meta name="ICBM" content="49.2236, 18.7394">
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
