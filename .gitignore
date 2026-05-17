@@ -71,3 +71,7 @@ build/
 # Coverage reports
 coverage/
 .phpunit.result.cache
+# Env / secrets
+.env
+.env.*
+!.env.example

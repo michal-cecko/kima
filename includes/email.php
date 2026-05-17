@@ -47,14 +47,14 @@ if (!empty($errors)) {
 $mail = new PHPMailer(true);
 
 try {
-    // SMTP Configuration
+    // SMTP Configuration (from environment)
     $mail->isSMTP();
-    $mail->Host = 'mail.webglobe.sk';
+    $mail->Host = getenv('SMTP_HOST') ?: 'mail.webglobe.sk';
     $mail->SMTPAuth = true;
-    $mail->Username = 'kima@kima.sk';
-    $mail->Password = '***REMOVED***';
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // TLS for port 587
-    $mail->Port = 587;
+    $mail->Username = getenv('SMTP_USERNAME') ?: '';
+    $mail->Password = getenv('SMTP_PASSWORD') ?: '';
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->Port = (int) (getenv('SMTP_PORT') ?: 587);
     $mail->CharSet = 'UTF-8';
 
     // Recipients
